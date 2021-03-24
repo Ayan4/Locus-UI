@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="components.css" />
+    <script src="../app.js" defer></script>
+    <link rel="icon" type="image/png" href="../assets/favicon-16x16.png" />
+    <title>Locus UI | Alerts</title>
+  </head>
+  <body>
+    <div class="loc-container">
+      <div class="overlay-div"></div>
+      <div class="loc-sidebar-wrapper hidden-sidebar">
+        <div class="loc-sidebar">
+          <div class="loc-head">
+            <a href="../index.html"
+              ><img src="../assets/final logo alt.png" alt=""
+            /></a>
+            <p>Docs v1.0</p>
+          </div>
+
+          <a href="install.html" class="loc-get-started">Install Locus UI</a>
+
+          <div class="loc-sidebar-nav">
+            <a href="button.html">Button</a>
+            <a class="alert-page" href="alert.html">Alerts</a>
+            <a href="badge.html">Badges</a>
+            <a href="cards.html">Cards</a>
+            <a href="avatars.html">Avatars</a>
+            <a href="input.html">Input</a>
+            <a href="modal.html">Modals</a>
+          </div>
+
+          <div class="loc-sidebar-footer">
+            <p>
+              Designed and Developed by <br />
+              <a href="https://ayanshukla-portfolio.netlify.app/"
+                ><span>Ayan Shukla</span></a
+              >
+            </p>
+            <div class="loc-connect">
+              <a href="https://github.com/Ayan4"
+                ><img src="../assets/github-main.svg" alt=""
+              /></a>
+              <a href="https://twitter.com/home"
+                ><img src="../assets/twitter.svg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="loc-hero-section">
+        <div class="loc-hero-nav">
+          <a href="../index.html">
+            <img class="hero-nav-logo" src="../assets/single-logo.png" alt="" />
+          </a>
+          <div>
+            <img class="ham-menu" src="../assets/ham-menu.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="loc-hero-head">
+          <div>
+            <h1>Alert</h1>
+            <p>
+              Alerts are used to communicate a state that affects a system,
+              feature or page.
+            </p>
+          </div>
+
+          <a href="https://github.com/Ayan4/Locus-UI"
+            ><img src="../assets/github.svg" alt=""
+          /></a>
+        </div>
+
+        <div class="loc-hero-main">
+          <div class="loc-hero-subhead">
+            <h2>Alert Statuses</h2>
+            <p>
+              Change the status of the alerts by passing the respective class.
+              This affects the color scheme and icon used. Alert supports
+              <span>error</span> and <span>success</span>
+            </p>
+          </div>
+
+          <div class="showcase-div">
+            <div class="elements">
+              <div class="inner-element-div">
+                <div class="alert-error">
+                  <ion-icon
+                    class="error-icon"
+                    size="large"
+                    name="alert-circle"
+                  ></ion-icon>
+                  <p class="alert-error-text">An Error Occurred!</p>
+                </div>
+
+                <p class="element-class-label">alert-error</p>
+              </div>
+              <div class="inner-element-div">
+                <div class="alert-success">
+                  <ion-icon
+                    class="success-icon"
+                    size="large"
+                    name="checkmark-circle"
+                  ></ion-icon>
+                  <p class="alert-success-text">Operation Successful!</p>
+                </div>
+                <p class="element-class-label">alert-success</p>
+              </div>
+            </div>
+            <div class="code-box">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2818%2C18%2C18%2C1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert-error%2522%253E%250A%2509%253Cimg%2520src%253D%2522..%252Fassets%252Ferror-icon.svg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%27alert-error-text%27%253EAn%2520Error%2520Occurred%21%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522alert-success%2522%253E%250A%2509%253Cimg%2520src%253D%2522..%252Fassets%252Fsuccess-alert.svg%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%27alert-success-text%27%253EOperation%2520Successful%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+                style="width: 100%; height: 354px; border:0; background-color: #121212; border-radius: 0 0 3px 3px; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+  </body>
+</html>
