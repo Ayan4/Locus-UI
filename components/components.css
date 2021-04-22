@@ -158,6 +158,11 @@ a {
   background: #343434;
 }
 
+.navbar-page {
+  color: var(--white);
+  background: #343434;
+}
+
 .loc-sidebar-footer {
   border-top: 1px solid #373737;
   position: absolute;
@@ -949,4 +954,52 @@ code {
 .btn-modal-fill:hover {
   background-color: transparent;
   color: var(--black);
+}
+
+/* Navbar ------------------------------------------------------------------------------------------------------------------------ */
+
+.navbar {
+  border-bottom: 0.5px #e3e3e3 solid;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background: #f7f7f7;
+  z-index: 1;
+}
+
+.logo {
+  width: 155px;
+}
+
+.nav-items {
+  display: flex;
+}
+
+.wishlist-icon {
+  color: #1f1f1f;
+  width: 23px;
+  height: 23px;
+  fill: transparent;
+  transition: fill 0.1s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    fill: #1f1f1f;
+  }
+}
+
+.cart-icon {
+  color: #1f1f1f;
+  width: 23px;
+  height: 23px;
+  fill: transparent;
+  transition: fill 0.1s ease-in-out;
+  cursor: pointer;
+  margin-left: 35px;
+
+  &:hover {
+    fill: #1f1f1f;
+  }
 }
