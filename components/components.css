@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 * {
   box-sizing: border-box;
@@ -729,6 +730,101 @@ code {
   cursor: pointer;
   background: transparent;
   outline: none;
+}
+
+.product-card {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 3px;
+  transition: all 0.2s ease-out;
+}
+
+.product-img {
+  max-width: 100%;
+  border-radius: 3px;
+}
+
+.product-info {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-category {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 3px;
+  color: #636363;
+  margin-bottom: 15px;
+}
+
+.product-brand {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #1f1f1f;
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+
+.product-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #1f1f1f;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.product-price-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.product-card-wishlist-icon {
+  color: #1f1f1f;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #1f1f1f;
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+
+.product-price-strike {
+  font-family: "Poppins", sans-serif;
+  color: #636363;
+  font-size: 14px;
+  text-decoration: line-through;
+}
+
+.product-addToCart-btn {
+  background: transparent;
+  border: none;
+  color: #1f1f1f;
+  width: 100%;
+  height: 40px;
+  border-radius: 1px;
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.1s ease-out;
+  border: 2px #1f1f1f solid;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-btn-icon {
+  font-size: 17px;
+  margin-right: 8px;
 }
 
 /* Avatar classes -------------------------------------------------------------------------------------------------- */
