@@ -981,7 +981,7 @@ code {
   color: #1f1f1f;
   font-size: 23px;
   fill: transparent;
-  transition: fill 0.1s ease-in-out;
+  /* transition: fill 0.1s ease-in-out; */
   cursor: pointer;
   /* border: var(--border); */
 }
@@ -993,7 +993,7 @@ code {
   color: #1f1f1f;
   font-size: 23px;
   fill: transparent;
-  transition: fill 0.1s ease-in-out;
+  /* transition: fill 0.1s ease-in-out; */
   cursor: pointer;
   margin-left: 35px;
   /* border: var(--border); */
