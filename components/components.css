@@ -979,11 +979,11 @@ code {
 
 .wishlist-icon {
   color: #1f1f1f;
-  width: 23px;
-  height: 23px;
+  font-size: 23px;
   fill: transparent;
   transition: fill 0.1s ease-in-out;
   cursor: pointer;
+  /* border: var(--border); */
 }
 .wishlist-icon:hover {
   fill: #1f1f1f;
@@ -991,12 +991,12 @@ code {
 
 .cart-icon {
   color: #1f1f1f;
-  width: 23px;
-  height: 23px;
+  font-size: 23px;
   fill: transparent;
   transition: fill 0.1s ease-in-out;
   cursor: pointer;
   margin-left: 35px;
+  /* border: var(--border); */
 }
 
 .cart-icon:hover {
