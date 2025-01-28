@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="components.css" />
+    <script src="../app.js" defer></script>
+    <link rel="icon" type="image/png" href="../assets/favicon-16x16.png" />
+    <title>Locus UI | Modals</title>
+  </head>
+  <body>
+    <div class="loc-container">
+      <div class="overlay-div"></div>
+      <div class="loc-sidebar-wrapper hidden-sidebar">
+        <div class="loc-sidebar">
+          <div class="loc-head">
+            <a href="../index.html"
+              ><img src="../assets/final logo alt.png" alt=""
+            /></a>
+            <p>Docs v1.0</p>
+          </div>
+
+          <a href="install.html" class="loc-get-started">Install Locus UI</a>
+
+          <div class="loc-sidebar-nav">
+            <a href="button.html">Button</a>
+            <a href="alert.html">Alerts</a>
+            <a href="badge.html">Badges</a>
+            <a href="cards.html">Cards</a>
+            <a href="avatars.html">Avatars</a>
+            <a href="input.html">Input</a>
+            <a class="modal-page" href="modal.html">Modals</a>
+            <a href="navbar.html">Navbar</a>
+          </div>
+
+          <div class="loc-sidebar-footer">
+            <p>
+              Designed and Developed by <br />
+              <a href="https://ayanshukla-portfolio.netlify.app/"
+                ><span>Ayan Shukla</span></a
+              >
+            </p>
+            <div class="loc-connect">
+              <a href="https://github.com/Ayan4"
+                ><img src="../assets/github-main.svg" alt=""
+              /></a>
+              <a href="https://twitter.com/home"
+                ><img src="../assets/twitter.svg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="loc-hero-section">
+        <div class="loc-hero-nav">
+          <a href="../index.html">
+            <img class="hero-nav-logo" src="../assets/single-logo.png" alt="" />
+          </a>
+          <div>
+            <img class="ham-menu" src="../assets/ham-menu.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="loc-hero-head">
+          <div>
+            <h1>Modals</h1>
+            <p>
+              Modals are good for notifying the user about an action on the web
+              page
+            </p>
+          </div>
+
+          <a href="https://github.com/Ayan4/Locus-UI"
+            ><img src="../assets/github.svg" alt=""
+          /></a>
+        </div>
+
+        <div class="loc-hero-main">
+          <div class="loc-hero-subhead">
+            <h2>Modals</h2>
+            <p>
+              Here we have a standard example of a Modal that makes sure user
+              wants to perform an action
+            </p>
+          </div>
+
+          <div class="showcase-div">
+            <div class="elements">
+              <div class="inner-element-div">
+                <div class="modal">
+                  <div class="modal-text-div">
+                    <ion-icon
+                      size="large"
+                      class="modal-icon"
+                      name="alert-circle"
+                    ></ion-icon>
+                    <p class="modal-text">
+                      Are you sure you want to delete this Item ?
+                    </p>
+                  </div>
+
+                  <div class="modal-btns">
+                    <div class="btn-br btn-modal">Yes</div>
+                    <div class="btn-br-fill btn-modal btn-modal-fill">No</div>
+                  </div>
+                </div>
+
+                <p class="element-class-label">modal</p>
+              </div>
+            </div>
+            <div class="code-box">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2818%2C18%2C18%2C1%29&t=seti&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-text-div%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cion-icon%2520size%253D%27large%27%2520class%253D%27modal-icon%27%2520name%253D%2522alert-circle%2522%253E%253C%252Fion-icon%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522modal-text%2522%253EAre%2520you%2520sure%2520you%2520want%2520to%2520delete%2520this%2520Item%2520%253F%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-btns%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-br%2520btn-modal%2522%253EYes%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-br-fill%2520btn-modal%2520btn-modal-fill%2522%253ENo%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="width: 100%; height: 391px; border:0; background-color: #121212; border-radius: 0 0 3px 3px; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+  </body>
+</html>
